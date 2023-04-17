@@ -3,8 +3,10 @@
 body {
     /* border: 1px solid red; */
     background-color: lightpink;
-  
+   
 }
+
+
 
 /* draggable */
 #mydiv {
@@ -134,8 +136,6 @@ footer{
     font-family: arial;
     text-align: center;
    
-
-
 }
 
 .links a{
@@ -152,3 +152,4 @@ footer{
     opacity: 1;
     text-decoration: none;
 }    
+
