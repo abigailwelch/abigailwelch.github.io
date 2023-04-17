@@ -58,6 +58,8 @@
 
 /* MEDIA QUERY FOR MOBILE */
 @media (max-width:735px){
+
+  
     nav {
         padding-left: 0;
         /* border: 1px solid blue; */
