@@ -54,6 +54,8 @@
     padding-right: .5ch;
 }
 
+/* MOBILE MOBILE MOBILE*/
+
 /* MEDIA QUERY FOR MOBILE */
 @media (max-width:735px){
     nav {
@@ -65,6 +67,7 @@
        padding-bottom: 13%;
        /* padding-left:10%;
        padding-right:10%; */
+       align-items: center;
        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
        grid-template-areas:
        ".a."
@@ -76,9 +79,15 @@
        ;
    }
 
+   .footer{
+      border: 1px dotted red;
+      text-align: center;
+      align-items: center;
+
+   }
 }
 
-
+/* end of MOBILE MOBILE MOBILE */
 
 /* IMAGE GALLERY CSS - hover interaction */
 .hovereffect {
