@@ -4,27 +4,29 @@
 .image-gallery {
     /* border:1px solid blue; */
     height: 100%;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+    grid-template-columns: 1fr ;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 30px;
     padding-top: 7%;
     padding-bottom: 13%;
     grid-template-areas:
-    ". a b c ."
-    ". d e f ."
+    "a b c" 
+    "d e f"
     ;
 }
 
-.box-styling {
+/* .box-styling {
     height: 350px;
     background-color: rgb(110, 110, 110);
-}
+} */
 
-.box-wrapper{
+/* .box-wrapper{
   height:350px;
   border-radius: 1%;
-}
+} */
+
 .box1 {
     grid-area: a;
 }
@@ -61,16 +63,17 @@
 
   
     nav {
-        padding-left: 0;
-        /* border: 1px solid blue; */
+        padding-right: 30;
+        /* border: 1px solid red; */
     }
 
    .image-gallery {
        padding-bottom: 13%;
        /* padding-left:10%;
        padding-right:10%; */
+       margin: 0 auto;
        align-items: center;
-       grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+       grid-template-columns: 1fr ;
        grid-template-areas:
        ".a."
        ".b."
@@ -82,8 +85,7 @@
    }
 
    .footer{
-      border: 1px dotted red;
-      text-align: center;
+      text-align: right;
       align-items: center;
 
    }
