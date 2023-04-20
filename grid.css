@@ -62,12 +62,13 @@
 @media (max-width:735px){
 
     .dooda{
-      border: 1px solid red;
+      /* border: 1px solid red; */
       scale:0%;
     }
   
-    nav {
-        padding-right: 30;
+    .nav {
+        /* padding-right: 30px; */
+        align-items:center;
         /* border: 1px solid red; */
     }
 
