@@ -131,7 +131,7 @@ nav{
 
 
 footer{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* background-color:aliceblue; */
     font-family: arial;
     text-align: center;
@@ -139,7 +139,7 @@ footer{
 }
 
 .links a{
-    color:rgb(27, 117, 228);
+    color:#2f51da;
     font-family:arial;
     font-weight: 600;
     opacity: 0.6;
@@ -148,8 +148,23 @@ footer{
 }
 
 .links a:hover{
-    color:rgb(255, 111, 0);
+    color:#eb1b23;
     opacity: 1;
     text-decoration: none;
 }    
 
+a{
+    color:#2f51da;
+    font-family:arial;
+    font-weight: 600;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+a:hover{
+  color:#eb1b23;
+  opacity: 1;
+  text-decoration: none;
+}
