@@ -131,11 +131,11 @@ nav{
 
 
 footer{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     /* background-color:aliceblue; */
     font-family: arial;
     text-align: center;
-   
+    padding-bottom: 5%;
 }
 
 .links a{
