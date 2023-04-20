@@ -2,7 +2,7 @@
 /* BODY */
 body {
     /* border: 1px solid red; */
-    background-color: lightpink;
+    background-color: #ffd1d8;
    
 }
 
@@ -107,7 +107,7 @@ nav{
   }
   
   nav li a {
-    color:rgb(27, 117, 228);
+    color:#2f51da;
     font-family:arial;
     font-weight: 600;
     opacity: 0.6;
@@ -116,7 +116,7 @@ nav{
   }
   
   nav li a:hover {
-    color:rgb(255, 111, 0);
+    color:#eb1b23;
     opacity: 1;
     text-decoration: none;
   }
