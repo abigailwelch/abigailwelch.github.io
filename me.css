@@ -21,10 +21,10 @@
 
 .bio-container h1{
     font-size: 35px;
-    font-family: "arial black";
+    font-family: arial;
 }
 
 .bio-container p{
     font-family: arial;
-
+    font-size: 18.5px;
 }
