@@ -1,0 +1,14 @@
+
+
+.the-army{
+    border: 1px solid red;
+    justify-items:center;
+    
+}
+
+.fav{
+    border: 1px solid red;
+    width: 20%;
+    justify-self: right;
+    position: right;
+}
