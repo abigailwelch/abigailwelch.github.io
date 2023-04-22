@@ -14,6 +14,7 @@
     grid-template-areas:
     "a b c" 
     "d e f"
+    "g h i"
     ;
 }
 
@@ -51,6 +52,18 @@
     grid-area: f;
 }
 
+.box7 {
+    grid-area: g;
+}
+
+.box8 {
+  grid-area: h;
+}
+
+/* .box9 {
+  grid-area: i;
+} */
+
 .bigText {
     font-size: 2em;
     padding-right: .5ch;
@@ -86,6 +99,9 @@
        ".d."
        ".e."
        ".f."
+       ".g."
+       ".h."
+       /* ".i." */
        ;
    }
 
