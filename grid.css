@@ -6,17 +6,20 @@
     height: 100%;
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 30px;
     padding-top: 7%;
     padding-bottom: 13%;
+    /* padding-left: 5%; */
     grid-template-areas:
     "a b c" 
     "d e f"
     "g h i"
     ;
 }
+
+
 
 /* .box-styling {
     height: 350px;
